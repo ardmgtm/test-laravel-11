@@ -15,3 +15,4 @@ interface RoleAndPermissionRepository
     public function getRoleUser(int $roleId): array;
     public function switchPermission(int $roleId, int $permissionId, bool $value): void;
 }
+
